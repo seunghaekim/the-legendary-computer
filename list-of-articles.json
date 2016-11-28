@@ -1,7 +1,7 @@
 [
    {
       "cls":1,
-      "product-name":"라즈베리파이",
+      "product_name":"라즈베리파이",
       "amount":10,
       "unit":"대",
       "cost":62680,
@@ -9,7 +9,7 @@
    },
    {
       "cls":1,
-      "product-name":"아두이노 메가",
+      "product_name":"아두이노 메가",
       "amount":10,
       "unit":"대",
       "cost":17000,
@@ -17,7 +17,7 @@
    },
    {
       "cls":1,
-      "product-name":"브라운관 TV",
+      "product_name":"브라운관 TV",
       "amount":10,
       "unit":"대",
       "price":50000,
@@ -26,7 +26,7 @@
    },
    {
       "cls":1,
-      "product-name":"키보드, 마우스",
+      "product_name":"키보드, 마우스",
       "amount":10,
       "unit":"개",
       "price":5350,
@@ -34,7 +34,7 @@
    },
    {
       "cls":1,
-      "product-name":"RCA 케이블",
+      "product_name":"RCA 케이블",
       "amount":10,
       "unit":"개",
       "price":1650,
@@ -43,7 +43,7 @@
    },
    {
       "cls":1,
-      "product-name":"3.5mm-RCA, M/F",
+      "product_name":"3.5mm-RCA, M/F",
       "amount":10,
       "unit":"개",
       "price":520,
@@ -52,7 +52,7 @@
    },
    {
       "cls":1,
-      "product-name":"3.5mm Phone Plug",
+      "product_name":"3.5mm Phone Plug",
       "amount":15,
       "unit":"개",
       "price":180,
@@ -60,7 +60,7 @@
    },
    {
       "cls":1,
-      "product-name":"멀티탭",
+      "product_name":"멀티탭",
       "amount":10,
       "unit":"개",
       "price":4360,
@@ -69,7 +69,7 @@
    },
    {
       "cls":1,
-      "product-name":"점퍼와이어 F/F",
+      "product_name":"점퍼와이어 F/F",
       "amount":2,
       "unit":"팩",
       "price":3900,
@@ -78,7 +78,7 @@
    },
    {
       "cls":1,
-      "product-name":"점퍼와이어 M/M",
+      "product_name":"점퍼와이어 M/M",
       "amount":2,
       "unit":"팩",
       "price":3600,
@@ -87,7 +87,7 @@
    },
    {
       "cls":1,
-      "product-name":"점퍼와이어 M/F",
+      "product_name":"점퍼와이어 M/F",
       "amount":2,
       "unit":"팩",
       "price":4600,
@@ -96,7 +96,7 @@
    },
    {
       "cls":1,
-      "product-name":"OMR카드",
+      "product_name":"OMR카드",
       "amount":1,
       "unit":"세트",
       "price":20000,
@@ -104,7 +104,7 @@
    },
    {
       "cls":1,
-      "product-name":"브레드보드",
+      "product_name":"브레드보드",
       "amount":15,
       "unit":"개",
       "price":2200,
@@ -112,19 +112,19 @@
    },
    {
       "cls":1,
-      "product-name":"롤 용지",
+      "product_name":"롤 용지",
       "amount":5,
       "unit":"롤"
    },
    {
       "cls":1,
-      "product-name":"감열지",
+      "product_name":"감열지",
       "amount":10,
       "unit":"매"
    },
    {
       "cls":3,
-      "product-name":"나무젓가락",
+      "product_name":"나무젓가락",
       "amount":5,
       "unit":"팩",
       "price":3000,
@@ -132,7 +132,7 @@
    },
    {
       "cls":3,
-      "product-name":"고무줄",
+      "product_name":"고무줄",
       "amount":1,
       "unit":"팩",
       "price":20930,
@@ -140,7 +140,7 @@
    },
    {
       "cls":3,
-      "product-name":"마분지",
+      "product_name":"마분지",
       "amount":1,
       "unit":"세트",
       "price":1400,
@@ -149,19 +149,19 @@
    },
    {
       "cls":4,
-      "product-name":"LP 디스크",
+      "product_name":"LP 디스크",
       "amount":1,
       "unit":"매"
    },
    {
       "cls":4,
-      "product-name":"종이컵",
+      "product_name":"종이컵",
       "amount":1,
       "unit":"팩"
    },
    {
       "cls":4,
-      "product-name":"바늘",
+      "product_name":"바늘",
       "amount":15,
       "unit":"개",
       "price":800,
@@ -169,14 +169,14 @@
    },
    {
       "cls":4,
-      "product-name":"피에조 픽업",
+      "product_name":"피에조 픽업",
       "amount":10,
       "unit":"개",
       "note":"혹은 마이크"
    },
    {
       "cls":4,
-      "product-name":"기계식 메트로놈",
+      "product_name":"기계식 메트로놈",
       "amount":1,
       "unit":"개",
       "price":27900,
@@ -184,7 +184,7 @@
    },
    {
       "cls":5,
-      "product-name":"디지털 멀티미터",
+      "product_name":"디지털 멀티미터",
       "amount":10,
       "unit":"대",
       "price":16300,
@@ -192,7 +192,7 @@
    },
    {
       "cls":5,
-      "product-name":"카세트 플레이어",
+      "product_name":"카세트 플레이어",
       "amount":5,
       "unit":"대",
       "price":10000,
@@ -200,7 +200,7 @@
    },
    {
       "cls":1,
-      "product-name":"고무매트",
+      "product_name":"고무매트",
       "amount":10,
       "unit":"매",
       "price":37000,
@@ -209,7 +209,7 @@
    },
    {
       "cls":1,
-      "product-name":"만능기판",
+      "product_name":"만능기판",
       "amount":15,
       "unit":"매",
       "price":1600,
@@ -218,7 +218,7 @@
    },
    {
       "cls":1,
-      "product-name":"푸쉬버튼 스위치",
+      "product_name":"푸쉬버튼 스위치",
       "amount":20,
       "unit":"개",
       "price":200,
@@ -226,7 +226,7 @@
    },
    {
       "cls":1,
-      "product-name":"토글 스위치",
+      "product_name":"토글 스위치",
       "amount":20,
       "unit":"개",
       "price":450,
@@ -234,7 +234,7 @@
    },
    {
       "cls":1,
-      "product-name":"콘덴서 마이크",
+      "product_name":"콘덴서 마이크",
       "amount":10,
       "unit":"개",
       "price":450,
@@ -242,7 +242,7 @@
    },
    {
       "cls":1,
-      "product-name":"택트 스위치",
+      "product_name":"택트 스위치",
       "amount":40,
       "unit":"개",
       "price":40,
@@ -250,7 +250,7 @@
    },
    {
       "cls":1,
-      "product-name":"LED",
+      "product_name":"LED",
       "amount":5,
       "unit":"세트",
       "price":4000,
@@ -259,7 +259,7 @@
    },
    {
       "cls":1,
-      "product-name":"LED, RGB",
+      "product_name":"LED, RGB",
       "amount":15,
       "unit":"개",
       "price":1000,
@@ -268,7 +268,7 @@
    },
    {
       "cls":1,
-      "product-name":"광센서",
+      "product_name":"광센서",
       "amount":250,
       "unit":"개",
       "price":150,
@@ -276,7 +276,7 @@
    },
    {
       "cls":1,
-      "product-name":"아두이노 브레드보드용기초 키트",
+      "product_name":"아두이노 브레드보드용기초 키트",
       "amount":10,
       "unit":"개",
       "price":2100,
@@ -284,7 +284,7 @@
    },
    {
       "cls":1,
-      "product-name":"핀헤더",
+      "product_name":"핀헤더",
       "amount":15,
       "unit":"개",
       "price":250,
