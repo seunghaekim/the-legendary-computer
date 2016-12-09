@@ -4,7 +4,7 @@
       "product_name":"라즈베리파이",
       "amount":10,
       "unit":"대",
-      "cost":62680,
+      "price":62680,
       "url":"http://www.devicemart.co.kr/1312002"
    },
    {
@@ -12,7 +12,7 @@
       "product_name":"아두이노 메가",
       "amount":10,
       "unit":"대",
-      "cost":17000,
+      "price":17000,
       "url":"http://www.devicemart.co.kr/1278958"
    },
    {
