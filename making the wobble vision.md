@@ -1,5 +1,5 @@
 ---
-    title: making the wobble vision
+# making the wobble vision
 ---
 \[주의:이 파일은 내 것이 아니다. 나는 이 파일을 http://cree.ucs.indiana.edu:1729/pathogenic/wobble.html 에서 발견했다. 이 웹사이트는 종종 다운된다. 그리고 난 여전히 원 저자를 알지 못한다. 나는 이 문서를 좋아한다. 때문에 이곳에 올려두었다. 만약 이 문서가 당신의 것이고 이곳에 올려지길 원하지 않는다면, 내게 알려달라. 이걸 만들려다 죽지는 말라.당신 TV는 위험한 수준의 전류를 가지고 있다.\]
 
