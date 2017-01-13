@@ -190,6 +190,7 @@ void showScene(byte scene[8], int duration) {
     setScene(scene);
   }
 }
+
 void loop() {
 //  showScene(scene000, 100);
 //  showScene(scene001, 100);
