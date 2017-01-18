@@ -1,31 +1,31 @@
+import sys
+
 def scene(i, dots):
 	i = str(i)
 	scenenumb = 'scene%s' % i
 	
 	result = '''
-byte %s[8] ={
-%s
-};
+byte %s[8] ={%s};
 ''' % (scenenumb, dots)
 	
 	return result
 
-def scenefunc(i, s = 10):
-	result = '''
-	showScene(scene%s, %s);  
-	''' % (i, s)
+def scenefunc(i, s = 40):
+	result = 'showScene(scene%s, %s);' % (i, s)
 	
 	return result
 
 body = '''
 void setup() {
-  for(int pin = 0;pin<22;pin++){
-    pinMode(pin,OUTPUT);
-  for(int pin = 14;pin<22;pin++){
-    digitalWrite(pin,LOW);
-  }
-  for(int pin = 0;pin<8;pin++){
-    digitalWrite(pin,HIGH);
+	for(int pin = 0;pin<22;pin++){
+		pinMode(pin,OUTPUT);
+	
+	for(int pin = 14;pin<22;pin++){
+		digitalWrite(pin,LOW);
+	}
+	
+	for(int pin = 0;pin<8;pin++){
+		digitalWrite(pin,HIGH);
   }
 }
 }
@@ -52,8 +52,7 @@ void showScene(byte scene[8], int duration) {
   }
 }
 
-void loop() {
-'''
+void loop() {'''
 
 dots = [
 '''
@@ -65,16 +64,106 @@ dots = [
 0b10010001,
 0b00111000,
 0b10111001
+''','''
+0b10000001,
+0b10000001,
+0b10000001,
+0b00000000,
+0b10000001,
+0b10001001,
+0b10011101,
+0b00011100
+''','''
+0b00000000,
+0b10000001,
+0b10000001,
+0b10000001,
+0b00001000,
+0b10011101,
+0b10011101,
+0b10000001
+''','''
+0b10001001,
+0b00000000,
+0b10000001,
+0b10000001,
+0b10010001,
+0b00111000,
+0b10111001,
+0b10000001
+''','''
+0b10001001,
+0b10001001,
+0b00000000,
+0b10000001,
+0b10000001,
+0b10010001,
+0b00111000,
+0b10111001
+''','''
+0b10000001,
+0b10001001,
+0b10001001,
+0b00000000,
+0b10000001,
+0b10001001,
+0b10011101,
+0b00011100
+''','''
+0b00000000,
+0b10000001,
+0b10000001,
+0b10001001,
+0b00001000,
+0b10001001,
+0b10011101,
+0b10011101
+''','''
+0b10000001,
+0b00000000,
+0b10000001,
+0b10000001,
+0b10101011,
+0b00010100,
+0b10011101,
+0b10011101
+''','''
+0b00000000,
+0b10000001,
+0b10000001,
+0b10010101,
+0b00101010,
+0b10010101,
+0b10101011,
+0b10011101
+''','''
+0b00000000,
+0b10000001,
+0b10000001,
+0b11010101,
+0b00101010,
+0b11010101,
+0b10101011,
+0b10011101
 ''',
+
     ]
+
+r = '';
 
 for i in range(len(dots)):
 	s = scene(i, dots[i])
-	print(s);
+	r = r + s
 
-print(body)
+r = r + body
 
 for i in range(len(dots)):
-	print(scenefunc(i))
+	r = r + scenefunc(i)
 
-print("}")
+r = r + "}"
+
+file = open("ledmapped.ino", "w")
+file.write(r)
+file.close()
+
+print("file exported")
