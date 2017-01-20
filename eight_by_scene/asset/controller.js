@@ -97,6 +97,7 @@ var scene = {
             }
         });
     },
+    code_body: 'void setup() {<br/>for(int pin = 0;pin<22;pin++){pinMode(pin,OUTPUT);}for(int pin = 14;pin<22;pin++){digitalWrite(pin,LOW);}for(int pin = 0;pin<8;pin++){digitalWrite(pin,HIGH);}}void setonoff(byte state){for(int i = 0;i<8;i++){int a = ((state>>i&0x01)==0x01? LOW:HIGH);digitalWrite(i+14,a);}}void setScene(byte scene[8]) {for(int i =0 ;i<8;i++){setonoff(scene[i]);digitalWrite(i,HIGH);delay(1);digitalWrite(i,LOW);}}void showScene(byte scene[8], int duration) {for(int i =0 ;i<duration/2.5;i++){setScene(scene);}}void loop() {'
 };
 
 
@@ -107,4 +108,6 @@ $(document).ready(function(){
         scene.drop_new_grid('#storyboard')
         scene.inspector('input[type="checkbox"]');
     });
+    $('.code #scene_body').append(scene.code_body);
+    console.log(scene.code_body);
 });
